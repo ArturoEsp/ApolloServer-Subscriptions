@@ -1,0 +1,11 @@
+type Query {
+    getMessage: String
+}
+
+type Mutation {
+    sendMessage(message: String) : String
+}
+
+type Subscription {
+    subMessage: String
+}
